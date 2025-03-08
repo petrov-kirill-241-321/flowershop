@@ -1,10 +1,16 @@
-import React from "react";
+import React, { FC } from "react";
 import { useDispatch } from "react-redux";
 import { likeComment } from "../../../redux/redux-comment";
 import { Heart } from "lucide-react";
 import s from "./Comments.module.css";
+type Props = {
+  id: number;
+  author: string;
+  text: string;
+  likes: number;
+};
 
-export const Comment = ({ id, author, text, likes }) => {
+export const Comment: FC<Props> = ({ id, author, text, likes }) => {
   const dispatch = useDispatch();
 
   return (
