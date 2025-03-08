@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import s from "./Comments.module.css";
 import { useDispatch } from "react-redux";
 import { addComment } from "../../../redux/redux-comment";

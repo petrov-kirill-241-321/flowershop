@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { useDispatch } from "react-redux";
 import { likeComment } from "../../../redux/redux-comment";
 import { Heart } from "lucide-react";
