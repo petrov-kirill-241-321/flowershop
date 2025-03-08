@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import s from "./Header.module.css";
 import { NavLink } from "react-router-dom";
 

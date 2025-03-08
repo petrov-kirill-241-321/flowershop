@@ -1,4 +1,3 @@
-import React from "react";
 //@ts-ignore
 import s from "./Login.module.css";
 

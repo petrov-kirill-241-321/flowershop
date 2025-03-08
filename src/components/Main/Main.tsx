@@ -1,4 +1,3 @@
-import React from "react";
 import { Header } from "../Header/Header";
 import FlowerCard from "../FlowerCard/FlowerCard";
 import rozes from "../../../image/rozes.jfif";
